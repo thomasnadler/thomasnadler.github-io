@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wintersonnewende 2022 in Berlin</title>
+  <title>Wintersonnenwende 2022 in Berlin</title>
   <style>
     body {
       background-image: url('https://pixabay.com/get/g97ff3db8f8b978c0c1c35706be8cc11eea3bcfae588c796c03834c14d2565afa4353fe6b47cb3962c383eb574eb48fa1.jpg');
@@ -28,15 +28,15 @@
   </div>
 
   <script>
-    // Die Wintersonnewende 2022 in Berlin findet am 20. Dezember 2022 statt
-    const winterSolstice = new Date('2022-12-20T00:00:00');
+    // Die Wintersonnenwende 2022 in Berlin findet am 21. Dezember 2022 statt
+    const winterSolstice = new Date('2022-12-21T00:00:00');
 
     // Aktualisiere den Countdown alle 1000ms (1s)
     setInterval(function() {
       // Hole das aktuelle Datum
       const now = new Date();
 
-      // Berechne die Zeit bis zur Wintersonnewende
+      // Berechne die Zeit bis zur Wintersonnenwende
       const timeUntilSolstice = winterSolstice - now;
 
       // Konvertiere die verbleibende Zeit in Tage, Stunden, Minuten und Sekunden
@@ -46,7 +46,7 @@
       const seconds = Math.floor((timeUntilSolstice % (1000 * 60)) / 1000);
 
       // Zeige den Countdown im HTML-Element mit der ID "countdown" an
-      document.getElementById('countdown').innerHTML = `${days} Tage, ${hours} Stunden, ${minutes} Minuten und ${seconds} Sekunden bis zur Wintersonnewende 2022 in Berlin`;
+      document.getElementById('countdown').innerHTML = `${days} Tage, ${hours} Stunden, ${minutes} Minuten und ${seconds} Sekunden bis zur Wintersonnenwende 2022 in Berlin`;
     }, 1000);
   </script>
 </body>
